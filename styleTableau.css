@@ -1,0 +1,50 @@
+td,th
+{
+  border: 1px solid black;
+}
+table
+{
+  border: 1px solid black;
+}
+a:link
+{
+      text-decoration: none;
+      color: black;
+}
+tr:nth-of-type(odd) {
+      background-color:#eeefef;
+    }
+a:link
+{
+  text-decoration: none;
+  color: black;
+}
+nav{
+  margin-top: 20px;
+}
+ul {      
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+background-color: #555;
+color: white;
+}
+#result{
+  margin-top: 20px;
+}
+option:hover{
+background-color: #555;
+color: white;
+width: 169px;
+}

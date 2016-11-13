@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" type="text/css" href="../styleTableau.css">
+	</head>
+
+	<body>
+		<form action="ajoutLivre.php" method="POST">
+			<table>
+				<tr>
+					<td>Référence</td>
+					<td>
+						<input type="text" name="ref" maxlength="50" required autofocus>
+					</td>
+				</tr>
+				<tr>
+					<td>Nom</td>
+					<td>
+						<input type="text" name="nom" maxlength="50" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Date création</td>
+					<td>
+						<input type="date" name="date" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Prix</td>
+					<td>
+						<input type="text" name="prix" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Auteur</td>
+					<td>
+						<input type="text" name="auteur" maxlength="10" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Nombre de Pages</td>
+					<td>
+						<input type="text" name="pages" required>
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td><input type="submit" value="ajouter livre"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

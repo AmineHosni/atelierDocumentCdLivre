@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" type="text/css" href="../styleTableau.css">
+	</head>
+
+	<body>
+		<form action="ajoutDocument.php" method="POST">
+			<table>
+				<tr>
+					<td>Référence</td>
+					<td>
+						<input type="text" name="ref" maxlength="20" required autofocus>
+					</td>
+				</tr>
+				<tr>
+					<td>Nom</td>
+					<td>
+						<input type="text" name="nom" maxlength="30" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Date création</td>
+					<td>
+						<input type="date" name="date" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Prix</td>
+					<td>
+						<input type="text" name="prix" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Auteur</td>
+					<td>
+						<input type="text" name="auteur" maxlength="30" required>
+					</td>
+				</tr>
+				<tr>
+				
+				<tr>
+					<td></td>
+					<td><input type="submit" value="ajouter document"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
